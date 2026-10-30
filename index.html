@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SWEET Artisanal Bakery - Order handcrafted Indian mithai, fusion desserts, luxury chocolates, and Diwali festive gift hampers online.">
+    <title>SWEET | Gourmet Confections & Diwali Gift Hampers 2026</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="top-bar">
+        <p><i class="fa-solid fa-gift"></i> Diwali Special: Flat 25% OFF on Pre-Orders! Use code: <strong>DIWALI25</strong> <i class="fa-solid fa-sparkles"></i></p>
+    </div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-cookie-bite"></i>
+                <span>SWEET</span>
+                <small>Gourmet Confections</small>
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#products">Bestsellers</a></li>
+                    <li><a href="#promotions">Offers</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search sweets, hampers...">
+                    <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <button class="icon-btn wishlist-toggle" title="Wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="badge" id="wishlistCount">0</span>
+                </button>
+                <button class="icon-btn cart-toggle" id="cartToggle" title="Shopping Cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="badge" id="cartCount">0</span>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 2: HERO BANNER -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <div class="hero-text">
+                <span class="hero-subtitle"><i class="fa-solid fa-star-of-david"></i> Diwali Celebration 2026</span>
+                <h1>Sweeten Your Celebrations This Diwali</h1>
+                <p>Handcrafted Artisan Mithai, Gourmet Chocolates & Luxury Festive Gift Boxes Made with Pure Desi Ghee & Love.</p>
+                <div class="offer-tag">FLAT 25% OFF ON PRE-ORDERS</div>
+                <div class="hero-btns">
+                    <a href="#products" class="btn btn-primary">Order Festive Hampers</a>
+                    <a href="#categories" class="btn btn-outline">Explore Menu</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80" alt="Assorted Indian Sweets and Festive Gift Hampers">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNTDOWN BANNER -->
+    <section class="countdown-section">
+        <div class="container countdown-container">
+            <div class="countdown-info">
+                <h3><i class="fa-solid fa-clock-rotate-left"></i> Festive Pre-Order Countdown</h3>
+                <p>Pre-order deadline for guaranteed pre-Diwali home delivery!</p>
+            </div>
+            <div class="timer-boxes" id="countdownTimer">
+                <div class="timer-box"><span id="days">00</span><small>Days</small></div>
+                <span class="colon">:</span>
+                <div class="timer-box"><span id="hours">00</span><small>Hours</small></div>
+                <span class="colon">:</span>
+                <div class="timer-box"><span id="minutes">00</span><small>Mins</small></div>
+                <span class="colon">:</span>
+                <div class="timer-box"><span id="seconds">00</span><small>Secs</small></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: SPECIAL DIWALI PROMOTIONS -->
+    <section id="promotions" class="promotions-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Special Festive Promotions</h2>
+                <p>Exclusive deals curated for your joyous family gatherings</p>
+            </div>
+            <div class="promo-grid">
+                <div class="promo-card promo-1">
+                    <div class="promo-content">
+                        <span class="tag">Limited Offer</span>
+                        <h3>Imperial Mithai Box</h3>
+                        <p>Extra 20% OFF on Assorted Royal Sweets crafted with dry fruits & silver foil.</p>
+                        <a href="#products" class="btn-text">Claim Offer <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="promo-card promo-2">
+                    <div class="promo-content">
+                        <span class="tag">Custom Gift</span>
+                        <h3>Build Your Own Hamper</h3>
+                        <p>Create your custom sweet box & get a free personalized greeting card engraved in gold.</p>
+                        <a href="#products" class="btn-text">Customize Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="promo-card promo-3">
+                    <div class="promo-content">
+                        <span class="tag">Corporate Gifting</span>
+                        <h3>Bulk Orders Special</h3>
+                        <p>Flat 30% OFF on corporate luxury hampers for orders above ₹10,000.</p>
+                        <a href="#products" class="btn-text">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: FEATURED CATEGORIES -->
+    <section id="categories" class="categories-section section-padding bg-cream">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Our Collections</h2>
+                <p>Traditional recipes meets modern confectionery artistry</p>
+            </div>
+            <div class="category-grid">
+                <div class="category-card" data-category="Traditional Mithai">
+                    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80" alt="Traditional Mithai">
+                    <div class="category-overlay">
+                        <h3>Traditional Mithai</h3>
+                        <p>Kaju Katli, Motichoor Ladoo, Besan Ladoo & more</p>
+                        <span class="shop-link">Shop Category <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Modern Fusion Desserts">
+                    <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80" alt="Modern Fusion Desserts">
+                    <div class="category-overlay">
+                        <h3>Modern Fusion Desserts</h3>
+                        <p>Gulab Jamun Cheesecake & Rasmalai Cakes</p>
+                        <span class="shop-link">Shop Category <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Gourmet Chocolates">
+                    <img src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=600&q=80" alt="Gourmet Chocolates">
+                    <div class="category-overlay">
+                        <h3>Gourmet Chocolates</h3>
+                        <p>Saffron Pistachio Pralines & Artisanal Bars</p>
+                        <span class="shop-link">Shop Category <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Festive Hampers">
+                    <img src="https://images.unsplash.com/photo-1513885535751-8b9238bd345a?auto=format&fit=crop&w=600&q=80" alt="Festive Hampers">
+                    <div class="category-overlay">
+                        <h3>Signature Festive Hampers</h3>
+                        <p>Curated Luxury Baskets & Gold-Embossed Boxes</p>
+                        <span class="shop-link">Shop Category <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: BESTSELLERS & TRENDING PRODUCTS -->
+    <section id="products" class="products-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bestsellers & Trending Treats</h2>
+                <p>Handpicked sweets loved by thousands for every festive occasion</p>
+                <!-- Filter Tabs -->
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all">All Products</button>
+                    <button class="filter-btn" data-filter="Traditional Mithai">Traditional Mithai</button>
+                    <button class="filter-btn" data-filter="Modern Fusion Desserts">Fusion Desserts</button>
+                    <button class="filter-btn" data-filter="Gourmet Chocolates">Chocolates</button>
+                    <button class="filter-btn" data-filter="Festive Hampers">Gift Hampers</button>
+                </div>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="product-grid" id="productGrid">
+                <!-- Dynamically populated via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: WHY CHOOSE US -->
+    <section id="why-us" class="why-us-section section-padding bg-cream">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose SWEET?</h2>
+                <p>Crafting sweet memories with uncompromising quality & hygiene</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-seedling"></i></div>
+                    <h3>100% Pure & Fresh</h3>
+                    <p>Made with premium 100% pure desi ghee, organic saffron, and farm-fresh ingredients.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-box-open"></i></div>
+                    <h3>Custom Packaging</h3>
+                    <p>Elegant eco-friendly gold embossed gift boxes designed specifically for festive gifting.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h3>Express Delivery</h3>
+                    <p>Same-day temperature-controlled local delivery to ensure peak freshness upon arrival.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Hygienic Kitchen</h3>
+                    <p>FSSAI certified artisan kitchen adhering to stringent international safety standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 8: CUSTOMER TESTIMONIALS -->
+    <section id="testimonials" class="testimonials-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Loved by Our Connoisseurs</h2>
+                <p>Read honest reviews from our delighted festive customers</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"The Royal Kaju Katli was extraordinarily soft and melted right in the mouth. The gold packaging made our Diwali family gifting so luxurious!"</p>
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Priya Sharma">
+                        <div>
+                            <h4>Priya Sharma</h4>
+                            <span>Verified Buyer • Mumbai</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"Ordered 15 corporate hampers for our office clients. Everyone appreciated the taste and presentation. SWEET is now our official festive partner!"</p>
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Rohan Verma">
+                        <div>
+                            <h4>Rohan Verma</h4>
+                            <span>Corporate Client • Delhi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"The Gulab Jamun Cheesecake fusion dessert is a masterpiece! Such a brilliant twist on traditional sweets. Will definitely order again."</p>
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Ananya Iyer">
+                        <div>
+                            <h4>Ananya Iyer</h4>
+                            <span>Verified Buyer • Bengaluru</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 9: NEWSLETTER SUBSCRIPTION -->
+    <section class="newsletter-section">
+        <div class="container newsletter-container">
+            <div class="newsletter-content">
+                <span class="badge-gold">Exclusive Perk</span>
+                <h2>Get ₹200 OFF Your First Festive Order!</h2>
+                <p>Subscribe to our newsletter for secret festive recipes, early access to new hampers, and exclusive discount codes.</p>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email address..." required>
+                    <button type="submit" class="btn btn-primary">Claim My Voucher</button>
+                </form>
+                <div id="newsletterMessage" class="newsletter-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 10: FOOTER -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="footer-logo">
+                    <i class="fa-solid fa-cookie-bite"></i>
+                    <span>SWEET</span>
+                </a>
+                <p>Handcrafting pure gourmet confections and celebration gift boxes with traditional recipes and modern elegance since 2018.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#products">Bestsellers</a></li>
+                    <li><a href="#promotions">Special Offers</a></li>
+                    <li><a href="#why-us">Why Choose Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#products">Traditional Mithai</a></li>
+                    <li><a href="#products">Fusion Desserts</a></li>
+                    <li><a href="#products">Gourmet Chocolates</a></li>
+                    <li><a href="#products">Festive Gift Hampers</a></li>
+                    <li><a href="#products">Corporate Bulk Packs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Support</h4>
+                <p><i class="fa-solid fa-location-dot"></i> 42, Royal Heritage Avenue, Connaught Place, New Delhi</p>
+                <p><i class="fa-solid fa-phone"></i> +91 (011) 4567-8900 / 98765-43210</p>
+                <p><i class="fa-solid fa-envelope"></i> concierge@sweetbakery.com</p>
+                <p><small>FSSAI Lic. No. 10021032000456</small></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container bottom-flex">
+                <p>&copy; 2026 SWEET Artisanal Bakery & Confectionery. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Allergen Info</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SHOPPING CART SLIDE-IN DRAWER -->
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <h3><i class="fa-solid fa-bag-shopping"></i> Your Shopping Bag (<span id="drawerItemCount">0</span>)</h3>
+            <button class="close-cart" id="closeCart"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="cart-items-container" id="cartItemsContainer">
+            <!-- Dynamically populated cart items -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>Subtotal:</span>
+                <span id="cartSubtotal">₹0</span>
+            </div>
+            <div class="cart-total-row">
+                <span>Festive Delivery:</span>
+                <span id="cartShipping">₹99</span>
+            </div>
+            <div class="cart-total-row grand-total">
+                <span>Grand Total:</span>
+                <span id="cartGrandTotal">₹99</span>
+            </div>
+            <button class="btn btn-primary checkout-btn" id="checkoutBtn">Proceed to Festive Checkout</button>
+            <p class="secure-checkout"><i class="fa-solid fa-lock"></i> 100% Secure Encrypted Checkout</p>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" id="backToTop" title="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast" id="toast">Item added to your festive bag!</div>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
